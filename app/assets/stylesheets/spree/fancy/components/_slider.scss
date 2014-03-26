@@ -1,0 +1,23 @@
+#subheader {
+  @include single-box-shadow(darken($base_dark, 10), 0, 0, 15px, 0, true);
+  // background: image-url('spree/fancy/subheader-bg.png') repeat center;
+  background-color: lighten($base_dark, 5);
+  color: white;
+  border-top: 5px solid lighten($base_dark, 40);
+  border-bottom: 5px solid lighten($base_dark, 40);
+  overflow: hidden;
+  padding: 0px;
+
+  .subheader-wrapper {
+    padding: 20px 10px;
+    color: white;
+    overflow: hidden;
+
+    h1 {
+      clear: both;
+      color: white;
+      font-size: 34px;
+      font-weight: 300;
+    }
+  }
+}

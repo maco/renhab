@@ -1,0 +1,12 @@
+body { border-top: 5px solid $accent2_dark; }
+footer#footer {
+    -webkit-box-shadow: #17472f;
+    box-shadow: #17472f;
+    background-color: #32694d;
+    border-top: #c8d0cc; 
+    color: #cad0cd;
+
+    a { color: $layout_background_color; }
+
+}
+
