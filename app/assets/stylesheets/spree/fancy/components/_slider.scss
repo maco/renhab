@@ -1,3 +1,6 @@
+@import 'spree/fancy/variables_override';
+@import 'compass/css3/box-shadow';
+
 #subheader {
   @include single-box-shadow(darken($base_dark, 10), 0, 0, 15px, 0, true);
   // background: image-url('spree/fancy/subheader-bg.png') repeat center;
