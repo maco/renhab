@@ -10,5 +10,5 @@
  *
  *= require_self
  *= require_tree .
- *= require store/variables_override
+ *= require spree/variables_override
  */
