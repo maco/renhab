@@ -234,6 +234,10 @@ footer#footer {
 /*--------------------------------------*/
 p {
   padding: 10px 0;
+  
+  a {
+    border-bottom: 1px dotted;
+  }
 }
 
 /*--------------------------------------*/
@@ -521,7 +525,6 @@ ul#products {
 }
 
 .subtaxon-title {
-  text-transform: uppercase;
 
   a {
     color: $link_text_color;
